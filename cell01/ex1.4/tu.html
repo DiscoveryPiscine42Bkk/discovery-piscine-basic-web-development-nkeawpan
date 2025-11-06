@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            object-fit: contain;
+            object-position: center;
+        }
+        a {
+            font-size: 0.8rem;
+            margin-top: 8px;
+        }
+        .container {
+            margin: 20px 10% 20px 10%;
+        }
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            font-family: monospace;
+            font-style: italic;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Piscine WEB </h1>
+
+    <div class="content">
+        <div class="box">
+            <img
+                src="https://www.centralretail.com/storage/brand/food/tops-market/logo-color.png"
+                alt="Tops"
+            />
+            <br>
+            <a href="https://www.tops.co.th/">Tops</a>
+        </div>
+        <div class="box">
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/9/92/UNIQLO_logo.svg"
+                alt="UNIQLO"
+            />
+            <br>
+            <a href="https://www.uniqlo.com/th/th/">UNIQLO</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container footer">
+        <p style="text-align: right; font-family: monospace; font-style: italic;">&copy; pkumnerd 2025</p>
+    </div>
+</body>
+</html>
